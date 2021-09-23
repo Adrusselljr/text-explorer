@@ -69,7 +69,8 @@ while(x !== 2 && y !== 2) {
         console.log("You go to sleep")
     }
     else {
-        console.log("ARE YOU LOST!?")
+        reset()
+        console.log("ARE YOU LOST!? TRY AGAIN!")
     }
 
     console.log([x, y])
